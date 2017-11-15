@@ -1,5 +1,6 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
+using System.Net;
 using System.Web.Http;
 
 using MvcTestsApi.Models;
@@ -8,8 +9,7 @@ namespace MvcTestsApi.Controllers
 {
     public class ValuesController : ApiController
     {
-        private readonly TestDto[] _returnValues = new TestDto[]
-        {
+        private readonly TestDto[] _returnValues = {
             new TestDto
             {
                 Name = "This is item 1",
@@ -37,7 +37,13 @@ namespace MvcTestsApi.Controllers
 
         public TestDto Get(int id)
         {
-            return _returnValues[id];
+            var index = id - 1;
+            if (index < 0 || index >= _returnValues.Length)
+            {
+                throw new HttpResponseException(HttpStatusCode.NotFound);
+            }
+
+            return _returnValues[index];
         }
     }
 }

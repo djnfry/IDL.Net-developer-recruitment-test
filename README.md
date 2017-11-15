@@ -14,8 +14,8 @@ Invitation Digital Limited Senior .NET Developer recruitment tests
     2. Write unit tests to prove that all methods in the `Stack` class perform as expected.
 
 3.
-    1. There is a web project 'MVCTests' and an API project 'MCVTestsApi' in the solution that are configured to run on http://localhost:49832/ and http://localhost:49869/ respectively.
-    2. In the `MVCTests` project create a route to `/invitationdigital/tests/{index}` that takes an optional integer parameter `index`. 
+    1. There is a web project 'MvcTests' and an API project 'MvcTestsApi' in the solution that are configured to run on http://localhost:49832/ and http://localhost:49869/ respectively.
+    2. In the `MvcTests` project create a route to `/invitationdigital/tests/{index}` that takes an optional integer parameter `index`. 
     3. Create a view that renders the results of an HTTP GET request to the API project (http://localhost:49869/api/values/{index}) with and without the `index` parameter.
  
 4.

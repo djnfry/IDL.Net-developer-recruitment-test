@@ -1,4 +1,4 @@
-﻿body {
+body {
     height: 100%;
     font-size: 87.5%;
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
@@ -7,11 +7,11 @@
     background: #f6f6f6;
 }
 
-#logo {
+.logo {
     float: left;
 }
 
-#header {
+.header {
     height: 55px;
     background: #292929 url('/content/images/header-pattern.png') repeat-x;
     border-bottom: 1px solid #93df00;

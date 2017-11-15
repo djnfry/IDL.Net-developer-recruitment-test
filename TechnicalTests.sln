@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnicalTests", "TechnicalTests\TechnicalTests.csproj", "{884471FB-3D47-48CC-B175-6C1A3FC72543}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTests", "MVCTests\MVCTests.csproj", "{F0232107-4A44-4D29-AD9F-B3A3B5B6C096}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcTests", "MvcTests\MvcTests.csproj", "{F0232107-4A44-4D29-AD9F-B3A3B5B6C096}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcTestsApi", "MvcTestsApi\MvcTestsApi.csproj", "{35A7875B-DA72-486A-9AD8-7490F9E303A6}"
 EndProject
@@ -36,5 +36,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D29CE64-B9B7-4EC1-8392-CB3127EC6C79}
 	EndGlobalSection
 EndGlobal

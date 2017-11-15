@@ -1,4 +1,4 @@
-﻿namespace TechnicalTests
+namespace TechnicalTests
 {
     public interface ISessionManager
     {
