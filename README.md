@@ -19,4 +19,8 @@
 4. There is a test in the UnitTests project that is called `RaceConditionTests` - it is currently broken.
     1. Please make changes to the TechicalTests project so that the test passes but do not edit the test in any way. The test is to simulate multiple threads loading, updating and saving sessions. Ideally the solution should not block requests for separate sessions, if any locking is required then it should be on a per-session basis.
 
-Please email <hr@vouchercloud.com> with your email address and we will grant you access to a Google Drive folder that you can upload you completed solution to. Please include the `.git` folder with your completed solution so that we have access to any commits you have made.
+Either clone/download the files in this repository, or fork this repository in your own GitHub account. When finished, please let us know by emailing <hr@vouchercloud.com>.
+
+If you've cloned/downloaded the repsitory, we will grant you access to a Google Drive folder that you can upload your completed solution to. Please include the `.git` folder with your completed solution so that we have access to any commits you have made.
+
+If you've forked the repository, please let us know the URL.
