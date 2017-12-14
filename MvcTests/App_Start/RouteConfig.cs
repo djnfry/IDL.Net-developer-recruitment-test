@@ -9,6 +9,10 @@ namespace MVCTests
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+
+            // Add attribute routing as .. well its so much easier... and you commented the other one out .. so just sayin!
+            routes.MapMvcAttributeRoutes();
+
             //routes.MapRoute(
             //    name: "Default",
             //    url: "{controller}/{action}/{id}",
